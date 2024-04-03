@@ -89,6 +89,9 @@
             },
             "development": {
               "buildTarget": "store:build:development"
+            },
+            "options": {
+              "proxyConfig": "./proxy.config.json"
             }
           },
           "defaultConfiguration": "development"
